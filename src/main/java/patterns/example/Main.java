@@ -4,7 +4,7 @@ import patterns.example.movietype.ChildrenType;
 import patterns.example.movietype.MovieType;
 import patterns.example.movietype.NewReleaseType;
 import patterns.example.movietype.RegularType;
-import patterns.example.views.html.ConsoleView;
+import patterns.example.views.console.ConsoleView;
 import patterns.example.views.html.HtmlView;
 
 import java.util.ArrayList;

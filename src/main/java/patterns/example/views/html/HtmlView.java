@@ -2,6 +2,7 @@ package patterns.example.views.html;
 
 import patterns.example.Customer;
 import patterns.example.Rental;
+import patterns.example.views.CustomerRentalRecordView;
 
 public class HtmlView implements CustomerRentalRecordView {
 
