@@ -1,6 +1,6 @@
 package patterns.example.views;
 
-import patterns.example.Customer;
+import patterns.example.customers.Customer;
 
 public interface CustomerRentalRecordView {
     String generateRecordOutput(Customer customer);

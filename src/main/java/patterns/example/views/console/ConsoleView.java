@@ -1,7 +1,7 @@
 package patterns.example.views.console;
 
-import patterns.example.Customer;
-import patterns.example.Rental;
+import patterns.example.customers.Customer;
+import patterns.example.rentals.Rental;
 import patterns.example.views.CustomerRentalRecordView;
 
 public class ConsoleView implements CustomerRentalRecordView {
@@ -13,7 +13,7 @@ public class ConsoleView implements CustomerRentalRecordView {
             sb.append("\t")
                     .append(each.getMovie().getTitle())
                     .append("\t")
-                    .append(each.getMovie().getMovieType().getAmount(each.getDaysRented()))
+                    .append(each.getDaysRented())
                     .append("\n");
         }
         //add footer lines

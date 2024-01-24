@@ -1,7 +1,7 @@
 package patterns.example.views.html;
 
-import patterns.example.Customer;
-import patterns.example.Rental;
+import patterns.example.customers.Customer;
+import patterns.example.rentals.Rental;
 import patterns.example.views.CustomerRentalRecordView;
 
 public class HtmlView implements CustomerRentalRecordView {
@@ -29,7 +29,7 @@ public class HtmlView implements CustomerRentalRecordView {
             sb.append("<li>")
                     .append(each.getMovie().getTitle())
                     .append(" - ")
-                    .append(each.getMovie().getMovieType().getAmount(each.getDaysRented()))
+                    .append(each.getDaysRented())
                     .append("</li>\n");
         }
         sb.append("""
