@@ -31,5 +31,5 @@ public class Rental implements Serializable {
     }
     public int getFrequentRenterPoints(){
         return rentStrategy.getFrequentRenterPoints(this.daysRented);
-    };
+    }
 }
